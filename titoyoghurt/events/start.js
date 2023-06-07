@@ -1,9 +1,5 @@
 const version = require("../helpers/information").VERSION;
 const log = require("../helpers/helper.js").log;
-const exec = require('child_process').exec;
-var minutes = 0;
-var hours = 0;
-var days = 0;
 
 function getVersion() {
 	return version;
